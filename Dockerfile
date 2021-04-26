@@ -1,3 +1,3 @@
 FROM nginx:alpine
-COPY /dist/seminar-demo-fe /usr/share/nginx/html
+COPY /dist/app-student-management /usr/share/nginx/html
 EXPOSE 80

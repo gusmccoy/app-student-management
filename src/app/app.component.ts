@@ -8,7 +8,7 @@ import { Student } from './student.model';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  title = 'seminar-demo-fe';
+  title = 'app-student-management';
 
   students: Student[] = [];
   editing: boolean = false;
